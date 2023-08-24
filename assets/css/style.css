@@ -74,8 +74,9 @@ p {
     display: inline-block;
     margin-left: 20px;
 }
-
-.benefits {
+/* Condensed repeated coding into one paragraph and titled webpage tabs/sections as .benefits*/
+.benefits 
+{
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -85,12 +86,13 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
+/* Edited coding and renamed right blue column as .benefits-column*/
 
 .benefits-column {
     margin-bottom: 32px; 
 }
 
-.benefits-column h3 {
+.benefits-column h2 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -100,6 +102,8 @@ p {
     margin: 10px auto;
     max-width: 150px;
 }
+
+/* Grouped coding into one section that focused on the bottom left section of page and renamed it as .subsections */
 
 .subsections {
     margin-bottom: 20px;
@@ -113,7 +117,7 @@ p {
     max-height: 200px;
 }
 
-.subsections h2 {
+.subsections h3 {
     margin-bottom: 20px;
     font-size: 36px;
 }
